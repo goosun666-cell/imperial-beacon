@@ -74,7 +74,21 @@
                                         </a>
                                     </li>
 
-
+                                    <li class="sidebar-item">
+                                        <a href="#crypto-quant-trading" class="smooth change-href" data-change="#crypto-quant-trading">
+                                            <i class="fas fa-chart-line fa-lg icon-fw icon-lg mr-2"></i>
+                                            <span>量化交易</span>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#crypto-quant-trading" class="smooth"><span>交易平台</span></a></li>
+                                            <li><a href="#quant-frameworks" class="smooth"><span>量化框架</span></a></li>
+                                            <li><a href="#quant-data-analysis" class="smooth"><span>数据分析</span></a></li>
+                                            <li><a href="#quant-api-sdk" class="smooth"><span>API接口</span></a></li>
+                                            <li><a href="#quant-backtest" class="smooth"><span>回测工具</span></a></li>
+                                            <li><a href="#quant-risk" class="smooth"><span>风险管理</span></a></li>
+                                        </ul>
+                                    </li>
 
                                     <li class="sidebar-item">
                                         <a href="#89a839e0a347c0be73793d01e52c31ad" class="smooth change-href" data-change="#89a839e0a347c0be73793d01e52c31ad">
@@ -1001,7 +1015,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/binance.png" alt="Binance">
+                            <img class="lazy" src="assets/images/logos/binance.png" data-src="assets/images/logos/binance.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Binance">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>Binance</strong></div>
@@ -1018,7 +1032,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/uniswap.png" alt="Uniswap">
+                            <img class="lazy" src="assets/images/logos/uniswap.png" data-src="assets/images/logos/uniswap.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Uniswap">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>Uniswap</strong></div>
@@ -1037,7 +1051,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/metamask.png" alt="MetaMask">
+                            <img class="lazy" src="assets/images/logos/metamask.png" data-src="assets/images/logos/metamask.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="MetaMask">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>MetaMask</strong></div>
@@ -1054,7 +1068,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/ledger.png" alt="Ledger">
+                            <img class="lazy" src="assets/images/logos/ledger.png" data-src="assets/images/logos/ledger.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Ledger">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>Ledger</strong></div>
@@ -1073,7 +1087,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/coingecko.png" alt="CoinGecko">
+                            <img class="lazy" src="assets/images/logos/coingecko.png" data-src="assets/images/logos/coingecko.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CoinGecko">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>CoinGecko</strong></div>
@@ -1090,7 +1104,7 @@
                 <div class="card-body">
                     <div class="url-content d-flex align-items-center">
                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
-                            <img class="lazy" src="assets/images/logos/dune.png" alt="Dune Analytics">
+                            <img class="lazy" src="assets/images/logos/dune.png" data-src="assets/images/logos/dune.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Dune Analytics">
                         </div>
                         <div class="url-info flex-fill">
                             <div class="text-sm overflowClip_1"><strong>Dune Analytics</strong></div>
@@ -1105,6 +1119,771 @@
 </div>
 <br />
 <!-- End: Imperial Web3 Expedition Quadrant -->
+
+<!-- Start: Cryptocurrency Quantitative Trading System -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-chart-line icon-lg mr-1" id="crypto-quant-trading"></i>
+        加密货币量化交易系统
+    </h4>
+</div>
+
+<div class="row">
+
+    <!-- 交易所API平台 -->
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.binance.com/en/binance-api" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="全球最大加密货币交易所API，支持现货、期货、杠杆交易。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/binance.png" data-src="assets/images/logos/binance.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Binance API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Binance API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">全球最大交易所API接口</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.okx.com/docs-v5/en/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="OKX交易所官方API文档，支持多种交易类型。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="OKX API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>OKX API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">OKX交易所API文档</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://bybit-exchange.github.io/docs/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Bybit交易所API，专注于衍生品交易。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Bybit API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Bybit API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">衍生品交易API接口</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://docs.kraken.com/rest/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Kraken交易所REST API，安全可靠的老牌交易所。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Kraken API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Kraken API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">老牌安全交易所API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://docs.deribit.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Deribit期权交易所API，专业的BTC/ETH期权交易。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Deribit API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Deribit API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">专业期权交易API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.gate.io/docs/developers/apiv4/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Gate.io交易所API，支持多币种交易。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Gate.io API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Gate.io API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">多币种交易API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+
+<!-- 量化交易框架 -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-code icon-lg mr-1" id="quant-frameworks"></i>
+        量化交易框架
+    </h4>
+</div>
+
+<div class="row">
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://github.com/ccxt/ccxt" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CCXT - 支持100+交易所的统一API库，Python/JavaScript/PHP。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/github.jpg" data-src="assets/images/logos/github.jpg" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CCXT">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CCXT</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">100+交易所统一API库</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.freqtrade.io/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Freqtrade - 免费开源的加密货币交易机器人，Python编写。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Freqtrade">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Freqtrade</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">开源加密货币交易机器人</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://hummingbot.io/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Hummingbot - 开源做市和套利交易机器人。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Hummingbot">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Hummingbot</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">做市与套利交易机器人</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://github.com/Superalgos/Superalgos" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Superalgos - 可视化量化交易平台，支持策略设计与回测。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/github.jpg" data-src="assets/images/logos/github.jpg" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Superalgos">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Superalgos</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">可视化量化交易平台</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://github.com/jesse-ai/jesse" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Jesse - Python量化交易框架，专为加密货币设计。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/github.jpg" data-src="assets/images/logos/github.jpg" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Jesse">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Jesse</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">Python加密货币量化框架</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.quantconnect.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="QuantConnect - 云端量化交易平台，支持多资产类别。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="QuantConnect">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>QuantConnect</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">云端量化交易平台</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://3commas.io/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="3Commas - 智能交易终端，支持自动化交易策略。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="3Commas">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>3Commas</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">智能交易终端</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.tradingview.com/pine-script-docs/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Pine Script - TradingView策略编程语言文档。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Pine Script">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Pine Script</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">TradingView策略编程</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+
+<!-- 数据分析工具 -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-database icon-lg mr-1" id="quant-data-analysis"></i>
+        数据分析工具
+    </h4>
+</div>
+
+<div class="row">
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.tradingview.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="TradingView - 专业图表分析平台，支持Pine Script编程。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="TradingView">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>TradingView</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">专业图表分析平台</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://glassnode.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Glassnode - 链上数据分析平台，提供区块链指标。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Glassnode">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Glassnode</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">链上数据分析平台</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://cryptoquant.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CryptoQuant - 加密货币市场数据和链上分析。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CryptoQuant">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CryptoQuant</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">加密市场链上分析</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://santiment.net/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Santiment - 加密货币行为分析和市场情报平台。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Santiment">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Santiment</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">行为分析和市场情报</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://messari.io/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Messari - 专业加密资产研究与数据分析。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Messari">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Messari</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">专业加密资产研究</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://defillama.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="DefiLlama - DeFi协议TVL追踪和分析平台。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="DefiLlama">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>DefiLlama</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">DeFi协议TVL追踪</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+
+<!-- API和数据接口 -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-plug icon-lg mr-1" id="quant-api-sdk"></i>
+        API与数据接口
+    </h4>
+</div>
+
+<div class="row">
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.coingecko.com/en/api" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CoinGecko API - 免费加密货币价格和市场数据API。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/coingecko.png" data-src="assets/images/logos/coingecko.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CoinGecko API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CoinGecko API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">免费加密货币数据API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://coinmarketcap.com/api/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CoinMarketCap API - 加密货币市值和价格数据。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CoinMarketCap API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CoinMarketCap API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">市值和价格数据API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.cryptocompare.com/api/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CryptoCompare API - 实时和历史加密货币数据。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CryptoCompare API">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CryptoCompare API</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">实时历史数据API</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://docs.tardis.dev/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Tardis.dev - 高质量历史市场数据，支持回放。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Tardis.dev">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Tardis.dev</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">高质量历史市场数据</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.kaiko.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Kaiko - 机构级加密货币市场数据提供商。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Kaiko">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Kaiko</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">机构级市场数据</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.theblock.co/data" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="The Block Data - 专业加密货币研究数据仪表板。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="The Block Data">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>The Block Data</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">专业研究数据仪表板</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+
+<!-- 回测工具 -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-history icon-lg mr-1" id="quant-backtest"></i>
+        回测与模拟工具
+    </h4>
+</div>
+
+<div class="row">
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.backtrader.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Backtrader - Python回测框架，功能强大灵活。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Backtrader">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Backtrader</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">Python回测框架</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://github.com/polakowo/vectorbt" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="VectorBT - 基于向量化的Python回测库，速度极快。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/github.jpg" data-src="assets/images/logos/github.jpg" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="VectorBT">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>VectorBT</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">向量化快速回测库</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://github.com/kernc/backtesting.py" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Backtesting.py - 轻量级Python回测框架。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/github.jpg" data-src="assets/images/logos/github.jpg" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Backtesting.py">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Backtesting.py</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">轻量级回测框架</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://testnet.binancefuture.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Binance Testnet - 币安期货测试网，模拟交易环境。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/binance.png" data-src="assets/images/logos/binance.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Binance Testnet">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Binance Testnet</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">币安期货测试网</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://testnet.binance.vision/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Binance Spot Testnet - 币安现货测试网。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/binance.png" data-src="assets/images/logos/binance.png" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Spot Testnet">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Spot Testnet</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">币安现货测试网</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://testnet.bybit.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Bybit Testnet - Bybit交易所测试网环境。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Bybit Testnet">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Bybit Testnet</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">Bybit测试网环境</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+
+<!-- 风险管理 -->
+<div class="d-flex flex-fill">
+    <h4 class="text-gray text-lg mb-4">
+        <i class="site-tag fas fa-shield-alt icon-lg mr-1" id="quant-risk"></i>
+        风险管理与安全
+    </h4>
+</div>
+
+<div class="row">
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.coinglass.com/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Coinglass - 加密货币衍生品数据，爆仓数据追踪。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Coinglass">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Coinglass</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">衍生品和爆仓数据</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.laevitas.ch/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Laevitas - 专业期权和衍生品分析平台。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Laevitas">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Laevitas</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">期权衍生品分析</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://whale-alert.io/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Whale Alert - 大额交易追踪，监控鲸鱼动向。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Whale Alert">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Whale Alert</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">大额交易鲸鱼追踪</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.nansen.ai/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Nansen - 区块链分析平台，追踪智能资金。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Nansen">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Nansen</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">智能资金追踪分析</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://www.arkham.ai/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="Arkham Intelligence - 加密货币情报和实体识别平台。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="Arkham">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>Arkham</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">加密情报实体识别</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+        <div class="url-body default">
+            <a href="https://cointracking.info/" target="_blank" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" title="CoinTracking - 加密货币投资组合和税务追踪。">
+                <div class="card-body">
+                    <div class="url-content d-flex align-items-center">
+                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                            <img class="lazy" src="assets/images/logos/default.webp" data-src="assets/images/logos/default.webp" onerror="javascript:this.src='assets/images/logos/default.webp'" alt="CoinTracking">
+                        </div>
+                        <div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>CoinTracking</strong></div>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">投资组合和税务追踪</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<br />
+<!-- End: Cryptocurrency Quantitative Trading System -->
+
 
 
 
